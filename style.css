@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(253, 253, 253);
+    color: rgba(0, 0, 0, 0);
+    text-align: center;
+}   
+
+#topo {
+    background:linear-gradient( rgb 252, 143, 103 0% rgb 245, 167, 130 100%) ;
+    width: 100%;
+    display: table;
+    padding: 100px 0;
+}
+
+#perfil {
+    display: table-cell;
+    vertical-align: middle;
+    margin: auto;
+}
+
+#IbagemPerfil {
+    width: 40%;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 10px;
+}
+
+
+
+.line {
+    width: 100px;
+    height: 6px;
+    background-color: rgba(0, 0, 0, 0) ;
+    margin: 0 auto 30px;
+}
+
+#menu {
+list-style-type: none;
+position: fixed;
+width: 100%;
+padding: 10px;
+margin: 0;
+background-color: rgb(247, 166, 166);
+}
+
+.link {
+    display: inline;
+    font-size: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight:200 ;
+}
+
